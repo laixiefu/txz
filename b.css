@@ -561,7 +561,10 @@ main[data-v-34992c4c] {
 
 .content.warn .footer>.company[data-v-34992c4c],
 .content.warn .school-name[data-v-34992c4c] {
-	background-color: #d46a3c
+	background-color: #d46a3c;
+
+
+
 }
 
 .content.warn .divider[data-v-34992c4c] {
@@ -734,15 +737,20 @@ footer p[data-v-34992c4c]:nth-of-type(2) {
 .footer[data-v-34992c4c] {
 	background-color: #fff;
 	padding: 3.2vw 0;
-	content: "viewport-units-buggyfill; padding: 3.2vw 0"
+	content: "viewport-units-buggyfill; padding: 3.2vw 0";
+
+
 }
 
 .footer p[data-v-34992c4c]:first-of-type {
 	width: 100%;
 	font-size: 2.933vw;
 	color: #fff !important;
-	padding: .8vw 0;
-	content: "viewport-units-buggyfill; font-size: 2.933vw; padding: 0.8vw 0"
+	padding: 0.8vw 0;
+	content: "viewport-units-buggyfill; font-size: 2.933vw; padding: 0.8vw 0";
+	position: absolute;
+	bottom: 33vw;
+
 }
 
 footer[data-v-34992c4c] {
@@ -761,9 +769,9 @@ footer[data-v-34992c4c] {
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	justify-content: center;
+	-webkit-box-pack: inherit;
+	-ms-flex-pack: inherit;
+	justify-content: inherit;
 	content: "viewport-units-buggyfill; padding-top: 5.333vw"
 }
 
